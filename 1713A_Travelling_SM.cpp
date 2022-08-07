@@ -26,7 +26,7 @@ int main(){
             maxy=max(maxy,y);
         }
 
-        cout<<minx<<" "<<maxx<<" "<<miny<<" "<<maxy<<endl;
+        //cout<<minx<<" "<<maxx<<" "<<miny<<" "<<maxy<<endl;
        cout << 2 * (maxx - minx) + 2 * (maxy - miny) << endl;
 
 
