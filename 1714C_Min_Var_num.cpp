@@ -45,33 +45,4 @@ int main()
         cout<<endl;
     }
 }
-/*int main()
-{
-    int t;
-    cin>>t;
-    while(t--)
-    {
-        int s;
-        cin>>s;
 
-        if(s<10)
-        {
-            cout<<s<<endl;
-        }
-
-        else if(s>9)
-        {
-            for(int i=9;i>0;i--)
-            {
-                if(s>9){
-                    s=s-i;
-                    cout<<i<<endl;
-                }
-               else if(s<9){
-                cout<<s<<endl;
-                break;
-               }
-            }
-        }
-    }
-}*/
