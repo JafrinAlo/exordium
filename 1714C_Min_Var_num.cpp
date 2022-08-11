@@ -1,16 +1,8 @@
 #include<iostream>
 using namespace std;
 
-int main()
-{
-    int t;
-    cin>>t;
-    while(t--)
-    {
-        int s;
-        cin>>s;
-
-         int result[9];
+int * solve(int s){
+     int result[9];
          int dec=0;
 
         if(s<10)
@@ -42,7 +34,24 @@ int main()
         {
             cout<<result[i-1];
         }
+
+}
+int main()
+{
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int s;
+        cin>>s;
+        int *result;
+        result=solve(s);
+        int dec=0;
+         for(int i=dec;i>0;i--)
+        {
+            cout<<result[i-1];
+        }
+
         cout<<endl;
     }
 }
-
